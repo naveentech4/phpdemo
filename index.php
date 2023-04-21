@@ -1,4 +1,4 @@
-<?php $mysqli = new mysqli("localhost","my_user","my_password","my_db");
+<?php $mysqli = new mysqli("localhost","root","password","mydb");
 
 // Check connection
 if ($mysqli -> connect_errno) {
